@@ -15,4 +15,4 @@ class Obstacle:
         su.blit(self.image,(self.x,self.y))
 
     def createRect(self):
-        return pygame.Rect(self.x,self.y,self.width,(int(self.image.get_height() * self.width / self.image.get_width())))
+        return pygame.Rect(self.x,self.y,100,100)
