@@ -110,8 +110,8 @@ while running:
     if player.health<=0:
         enemies=[]
         screen.fill(BLACK)
-        displayMessage("Mr waring was tragically eaten by the virus",(400,400),colour=(WHITE),size=50)
-        displayMessage("score: "+str(points),(400,500),colour=(WHITE),size=50)
+        displayMessage("Mr waring was tragically eaten by the virus",(20,400),colour=(WHITE),size=50)
+        displayMessage("score: "+str(points),(20,500),colour=(WHITE),size=50)
         
     pygame.display.flip()       
     frames+=1
